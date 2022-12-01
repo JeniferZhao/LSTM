@@ -216,4 +216,4 @@ def readData(filename):
            close.append(float(r[4]))
       
        ticker = filename.split('.csv')[0].split('./' + folder + '/')[1]
-       return Stock(ticker, cl
+       return Stock(ticker, close, date)
